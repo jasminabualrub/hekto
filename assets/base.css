@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+:root{
+    --primary:#FB2E86;
+    --sucess:#08D15F;
+    --mainfont:"Lato", sans-serif;
+}
+/*بالعادة البوتون بكون اله حدود خارج الحدود فاحنا بنلغي الخاصية وبنعطيها الاوتلاين none*/
+.btn{
+border:none;
+outline: none;
+background-color: var(--primary);
+color:#fff;
+padding:16px 40px ;
+border-radius: 2px;
+text-transform: capitalize;
+}
+.btn-sucess{
+    background-color: var(--sucess);
+
+}
+.btn-primary{
+    background-color: var(--primary);
+   
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width:calc(100% - 320px);
+    margin :auto;
+}
