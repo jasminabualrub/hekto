@@ -108,6 +108,32 @@ nav .list-item {
   margin-bottom: 53px;
 }
 /*hero end*/
+/* clients section start*/
+.client{
+  padding: 50px 0;
+}
+.client .row{
+  flex-wrap: nowrap;
+   overflow-x: auto;
+  gap:20px;
+  
+}
+.client .logo{
+  width:calc(100% - 80px)/6;
+ 
+}
+.client .logo img{
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width :900px){
+  .client .logo{
+  width:calc(100% - 40px)/3;
+ 
+}
+
+}
+/* clients section end */
 /*footer section start */
 .footer {
   padding: 60px;
