@@ -113,15 +113,30 @@ nav .list-item {
   padding: 60px;
   background-color: #eeeffb;
 }
-
+@media  screen and (max-width:992px) {
+  .footer .left-side, .footer .right-side{
+    width:100%
+  }
+  @media  screen and (max-width:576px) {
+ .right-side .categories ,.right-side .customer , .right-side .Pages{
+    width:100%;
+    text-align: center;
+  }}
+  
+}
+.footer .row{
+  gap:10px;
+}
 .footer .left-side {
   align-items: flex-start;
+  width:calc(100% - 10px)/2;
 }
 
 .footer .left-side img {
   margin-bottom: 35px;
 }
 .footer .left-side form {
+  display: flex;
   background-color: #fff;
   margin-bottom: 23px;
   border: none;
@@ -145,11 +160,15 @@ nav .list-item {
 }
 .footer .right-side {
   width: calc(100% - 10px) / 2;
+  
 }
 .right-side .row {
   gap: 40px;
+  align-items: flex-start;
 }
-
+.right-side .categories ,.right-side .customer , .right-side .Pages{
+  width:calc(100% - 80)/3;
+}
 .right-side .categories h2 {
   margin-bottom: 35px;
 }
