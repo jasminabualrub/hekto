@@ -13,6 +13,7 @@ ul {
   --primary: #fb2e86;
   --sucess: #08d15f;
   --mainfont: "Lato", sans-serif;
+  --fontcolor:#151875;
 }
 /*بالعادة البوتون بكون اله حدود خارج الحدود فاحنا بنلغي الخاصية وبنعطيها الاوتلاين none*/
 .btn {
@@ -23,6 +24,9 @@ ul {
   padding: 16px 40px;
   border-radius: 2px;
   text-transform: capitalize;
+}
+a{
+  color:#151875;
 }
 .btn-sucess {
   background-color: var(--sucess);
@@ -76,7 +80,18 @@ ul {
 .gap-3 {
   gap: 15px;
 }
-
+.margin-buttom{
+  margin-bottom: 40px;
+}
+.margin-top{
+  margin-top: 40px;
+}
 .text-align {
   text-align: center;
+}
+.justifiy-content{
+  justify-content: center;
+}
+.align-items{
+  align-items: center;
 }
