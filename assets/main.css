@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
+  background-color: #f5f5f5;
 }
 /* header secion*/
 .header {
@@ -254,10 +255,10 @@ i:hover {
 .leatest-product {
   text-align: center;
 }
-.leatest-product h3 {
+.leatest-product h2,
+.shopbox h2,
+.shopbox h3 {
   color: #151875;
-  font-size: 18px;
-  font-weight: 400;
 }
 .leatest-product ul li {
   color: var(--fontcolor);
@@ -324,6 +325,26 @@ i:hover {
   color: red;
 }
 /*leatest product end*/
+/* shopbox section start*/
+.shopbox .row {
+  gap: 30px;
+}
+.shopbox .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 25px;
+  flex-grow: 1;
+  padding: 30px;
+  background-color: #ffffff;
+}
+.card-details {
+  color: #9fa3b0;
+}
+
+/* shopbox section end*/
 
 /*newsletter section*/
 .newsletter {
