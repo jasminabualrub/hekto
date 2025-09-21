@@ -261,7 +261,8 @@ i:hover {
 .leatest-product h2,
 .shopbox h2,
 .shopbox h3,
-.blogs h2 {
+.blogs h2,
+.trending-product h2 {
   color: #151875;
 }
 .leatest-product ul li {
@@ -329,6 +330,75 @@ i:hover {
   color: red;
 }
 /*leatest product end*/
+/*trending-product start*/
+.trending-product {
+  padding: 20px;
+  background-color: #ffff;
+}
+.trending-product .row {
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.trend-card {
+  flex-grow: 1;
+  flex-basis: 250px;
+}
+.trend-info {
+  padding: 15px;
+}
+.trend-info p {
+  color: #151875;
+  font-weight: 400;
+}
+.trend-info .price span {
+  color: #151875;
+}
+.trend-info .price :nth-child(2) {
+  text-decoration: line-through;
+  color: lightgray;
+}
+.trending-product.container:nth-child(2) {
+  gap: 20px;
+}
+.row .trend-card2 {
+  background-color: #fff6fb;
+}
+
+.trend-card2,
+.trend-card3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+.trend-card2 h3,
+.trend-card3 h3 {
+  color: #151875;
+}
+.trend-card2 a,
+.trend-card3 a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.trend-card4 {
+  flex-grow: 1;
+  flex-basis: 250px;
+}
+.trend-card4 .card-item p {
+  color: #151875;
+}
+.trend-card4 .card-item span {
+  text-decoration: line-through;
+  color: #151875;
+}
+.trend-card2,
+.trend-card3,
+.trend-card4 {
+  padding: 20px;
+  height: 250px;
+}
+/*trending-product end*/
 /* shopbox section start*/
 .shopbox .row {
   gap: 30px;
