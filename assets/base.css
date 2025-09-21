@@ -71,6 +71,15 @@ a {
 .flex-direction {
   flex-direction: column;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.justifiy-content-space-between {
+  justify-content: space-between;
+}
 .gap-1 {
   gap: 5px;
 }

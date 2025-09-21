@@ -22,6 +22,9 @@ nav .list-item {
   color: #0d0e43;
   text-transform: capitalize;
 }
+.search {
+  background-color: #ffff;
+}
 .search form {
   border: 1px solid #e7e6ef;
   border-radius: 5px;
@@ -257,7 +260,8 @@ i:hover {
 }
 .leatest-product h2,
 .shopbox h2,
-.shopbox h3 {
+.shopbox h3,
+.blogs h2 {
   color: #151875;
 }
 .leatest-product ul li {
@@ -395,6 +399,56 @@ i:hover {
   }
 }
 /* clients section end */
+/*blogs section start*/
+.blogs.row {
+  gap: 60px;
+}
+.blog-card {
+  flex-grow: 1;
+  flex-basis: 350px;
+  padding: 30px 15px;
+  border-radius: 8px;
+  transition: all 0.6s;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  padding: 20px;
+}
+.title {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.card-info h3 {
+  color: #1a0b5b;
+  transition: all 0.6s;
+}
+.card-info p {
+  text-align: left;
+  color: #9fa3b0;
+}
+.card-img img {
+  border-radius: 8px;
+  object-fit: contain;
+  width: 100%;
+}
+.card-info a {
+  text-decoration: underline;
+  transition: all 0.6s;
+}
+.card-info:hover h3 {
+  color: var(--primary);
+}
+.card-info:hover a {
+  color: var(--primary);
+}
+.blog-card:hover {
+  transform: scale(0.6);
+}
+/*blogs section end*/
 /*footer section start */
 .footer {
   padding: 60px;
