@@ -262,7 +262,7 @@ i:hover {
 .shopbox h2,
 .shopbox h3,
 .blogs h2,
-.trending-product h2 {
+.trending-product h2, .categories h2{
   color: #151875;
 }
 .leatest-product ul li {
@@ -371,6 +371,7 @@ i:hover {
   gap: 5px;
   flex-grow: 1;
   flex-basis: 400px;
+  position: relative;
 }
 .trend-card2 h3,
 .trend-card3 h3 {
@@ -398,6 +399,12 @@ i:hover {
   padding: 20px;
   height: 250px;
 }
+
+.trend-img img{
+  position: absolute;
+  right:2px;
+  bottom: 2px;
+}
 /*trending-product end*/
 /* shopbox section start*/
 .shopbox .row {
@@ -419,7 +426,50 @@ i:hover {
 }
 
 /* shopbox section end*/
+/*categories section start*/
+.categories .row{
+  gap:10px;
+}
+.cat-item{
+  flex-grow: 1;
+  flex-basis: 270px;
+  background-color: #F6F7FB;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap:10px;
+   padding: 10px;
+}
+.item{
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  padding: 30px;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   transition: all 0.6s;
+}
+.item img{
+  width:70%;
+}
+.item-info p{
+  color:#151875
 
+}
+.item button {
+  transition: all 0.6s;
+}
+.cat-item:hover button{
+  display: flex;
+}
+.item:hover{
+box-shadow: -2px 6px 0px #6A5ACD;
+
+}
+/*categories section end*/
 /*newsletter section*/
 .newsletter {
   background-image: url(./images/newsletter/Rectangle\ 102.webp);
