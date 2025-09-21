@@ -342,6 +342,14 @@ i:hover {
 .trend-card {
   flex-grow: 1;
   flex-basis: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.trend-card  .trend-img img{
+  width:100px;
+  height: 100px;
 }
 .trend-info {
   padding: 15px;
@@ -372,6 +380,7 @@ i:hover {
   flex-grow: 1;
   flex-basis: 400px;
   position: relative;
+  
 }
 .trend-card2 h3,
 .trend-card3 h3 {
@@ -400,10 +409,10 @@ i:hover {
   height: 250px;
 }
 
-.trend-img img{
-  position: absolute;
-  right:2px;
-  bottom: 2px;
+.trend-img2 {
+ position: absolute;
+ bottom: 2px;
+ right:2px;
 }
 /*trending-product end*/
 /* shopbox section start*/
@@ -465,7 +474,7 @@ i:hover {
 .cat-item:hover button{
   display: flex;
 }
-.item:hover{
+.cat-item:hover .item{
 box-shadow: -2px 6px 0px #6A5ACD;
 
 }
